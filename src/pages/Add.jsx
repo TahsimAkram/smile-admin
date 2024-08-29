@@ -150,7 +150,7 @@ const Add = ({token}) => {
               <p className={`${sizes.includes("30ML") ? "bg-pink-100" : "bg-slate-200" } px-3 py-1 cursor-pointer`}>30ML</p>
             </div>
 
-            <div onClick={()=>setSizes(prev => prev.includes("100ML") ? prev.filter( item => item !== "100ML") : [...prev,"30ML"])}>
+            <div onClick={()=>setSizes(prev => prev.includes("100ML") ? prev.filter( item => item !== "100ML") : [...prev,"100ML"])}>
               <p className={`${sizes.includes("100ML") ? "bg-pink-100" : "bg-slate-200" } px-3 py-1 cursor-pointer`}>100ML</p>
             </div>
 
